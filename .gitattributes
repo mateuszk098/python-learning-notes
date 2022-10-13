@@ -1,2 +1,2 @@
 # ignore jupyter notebooks in postprocessing in the language bar on github
-postprocessing/** linguist-vendored
+python_in_science/lab10/** linguist-vendored
