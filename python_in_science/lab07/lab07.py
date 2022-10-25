@@ -1,7 +1,13 @@
-from numba import jit
-import numpy as np
+'''
+Simulation of the 2D Ising Model with Monte Carlo method.
+But there we don't have OOP and we're testing numba.
+'''
+
 import random
 import time
+
+from numba import jit
+import numpy as np
 
 
 # Calculate current system energy
@@ -24,7 +30,7 @@ def calculate_energy(state: np.ndarray, size: int, J: float, H: float):
             nodes_energy += (s_u + s_b + s_l + s_r) * s_c
 
     field_energy = -H * np.sum(state)
-    full_energy = -J * nodes_energy + field_energy
+    full_energy = -J * nodes_energy + field_energy  # type: ignore
     return full_energy
 
 
@@ -57,7 +63,7 @@ def calculate_new_state(state: np.ndarray, size: int, beta: float):
                 state[i, j] = -state[i, j]
 
 
-# Main simulation 
+# Main simulation
 def simulation(state: np.ndarray, size: int, beta: float, N: int):
     for _ in range(N):
         calculate_new_state(state, size, beta)
@@ -79,15 +85,15 @@ if __name__ == '__main__':
     N = 50
 
     # Set sign print option
-    np.set_printoptions(formatter={'int': lambda x: "{:>+}".format(x)})
+    np.set_printoptions(formatter={'int': lambda x: "{:>+}".format(x)})  # type: ignore
 
-    # Create spins state 
+    # Create spins state
     state = np.random.randint(2, size=(size, size), dtype=np.int8) * 2 - 1
     print(str(state).replace(' [', '').replace('[', '').replace(']', ''))
     print('\n')
 
     # Calculate new state
-    new_state = state 
+    new_state = state
     start = time.time()
     new_state = simulation(new_state, size, beta, N)
     stop = time.time()

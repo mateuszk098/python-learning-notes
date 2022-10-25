@@ -1,9 +1,14 @@
-import numpy as np
-import matplotlib.pyplot as plt
+'''
+Measuring the execution time of a function as a decorator. 
+'''
+
 import time
-from numba import jit
 from functools import wraps
 from statistics import mean
+
+import numpy as np
+import matplotlib.pyplot as plt
+from numba import jit
 
 
 # This decorator may be launched with or without parameters
@@ -21,8 +26,7 @@ def my_timer(*args_timer, **kwargs_timer):
                 start = time.time()
                 my_func(*args_func, **kwargs_func)
                 stop = time.time()
-                print(
-                    f'{my_func.__name__} execution time: {(stop - start):.5f} sec.')
+                print(f'{my_func.__name__} execution time: {(stop - start):.5f} sec.')
 
             return wrapper
         return decorator
@@ -40,8 +44,7 @@ def my_timer(*args_timer, **kwargs_timer):
                     my_func(*args_func, **kwargs_func)
                     stop = time.time()
                     times_table.append(stop - start)
-                print(
-                    f'{my_func.__name__} average execution time: {mean(times_table):.5f} sec.')
+                print(f'{my_func.__name__} average execution time: {mean(times_table):.5f} sec.')
 
             return wrapper
         return decorator
@@ -89,8 +92,7 @@ def draw_plot(times, x_mean, energy):
                   fontname="Times New Roman", fontsize=16)
     ax1.set_ylabel("Mean Position", fontname="Times New Roman")
 
-    ax2.plot(times, energy, color="blue", alpha=0.75,
-             linewidth=2.0, label="energy")
+    ax2.plot(times, energy, color="blue", alpha=0.75, linewidth=2.0, label="energy")
     ax2.set_xlabel("Time", fontname="Times New Roman")
     ax2.set_ylabel("Energy", fontname="Times New Roman")
 
@@ -120,17 +122,17 @@ def main():
     # ----------------------------------------------------------------
     # Initial conditions
     # Position
-    x = np.linspace(0, 1, N + 1, dtype=float)
+    x = np.linspace(0, 1, int(N + 1), dtype=float)
 
     # Real part of the wave function
     Psi_R = np.array(np.sqrt(2) * np.sin(n * PI * x), dtype=float)
     # Imagine part of the wave function
-    Psi_I = np.zeros(N + 1, dtype=float)
+    Psi_I = np.zeros(int(N + 1), dtype=float)
 
     # Real part of the Hamiltonian function
-    H_R = np.zeros(N + 1, dtype=float)
+    H_R = np.zeros(int(N + 1), dtype=float)
     # Imagine part of the Hamiltonian function
-    H_I = np.zeros(N + 1, dtype=float)
+    H_I = np.zeros(int(N + 1), dtype=float)
 
     # Segment discretisation
     dx = 1.0 / N
@@ -174,7 +176,6 @@ def main():
     # ----------------------------------------------------------------
 
 
-# Main
 if __name__ == '__main__':
     main()
 

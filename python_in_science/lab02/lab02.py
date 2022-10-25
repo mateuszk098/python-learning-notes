@@ -1,4 +1,7 @@
-# Import dependencies
+'''
+Simulation of the 2D Ising Model with Monte Carlo method.
+'''
+
 import numpy as np
 import random
 from rich.progress import Progress, BarColumn, TimeElapsedColumn, SpinnerColumn
@@ -8,7 +11,6 @@ from PIL import Image
 
 class Ising:
 
-    # Constructor
     def __init__(self, size: int, J: float, beta: float, H: float, N: int):
         self.size = size
         self.J = J
@@ -34,13 +36,11 @@ class Ising:
 
         for i in range(self.size):
             for j in range(self.size):
-
                 s_u = self.frame[(i + 1) % self.size, j]
                 s_b = self.frame[(i - 1) % self.size, j]
                 s_l = self.frame[i, (j - 1) % self.size]
                 s_r = self.frame[i, (j + 1) % self.size]
                 s_c = self.frame[i, j]
-
                 nodes_energy += (s_u + s_b + s_l + s_r) * s_c
 
         field_energy = -self.H * np.sum(self.frame)
@@ -52,23 +52,17 @@ class Ising:
 
         # As many cases as many spins
         for _ in range(self.size * self.size):
-
             # Calculate old energy without changed spin state
             old_energy = self.calculate_energy()
-
             # Random choice of spin
             i = random.randint(0, self.size - 1)
             j = random.randint(0, self.size - 1)
-
             # Change spine state
             self.frame[i, j] = -self.frame[i, j]
-
             # Calculate new energy with changed spin state
             new_energy = self.calculate_energy()
-
             # If energy change < 0, then we accept spin change
             delta_energy = new_energy - old_energy
-
             # If energy change > 0, we unaccept spin change when...
             if delta_energy > 0:
                 if random.random() > np.exp(-self.beta * delta_energy):
@@ -76,7 +70,6 @@ class Ising:
 
     # Save image with spins
     def save_image(self, step, arrow_up, arrow_down, width, height, img):
-
         # Each step has own image
         filename = f'step_{step}.png'
         img.save(filename)
@@ -96,8 +89,7 @@ class Ising:
     def simulation(self):
 
         file = open('magnetisation.txt', 'w')
-        file.write(
-            f'Frame: {self.size}x{self.size},\tJ = {J},\tBeta = {self.beta},\tH = {self.H}\n')
+        file.write(f'Frame: {self.size}x{self.size}, J={J}, Beta={self.beta}, H={self.H}\n')
         file.write('STEP\tMagnetisation\n')
 
         # Initial magnetisiation
@@ -134,23 +126,16 @@ class Ising:
         self.save_image(self.N, arrow_up, arrow_down, width, height, img)
 
 
-# MAIN
 if __name__ == '__main__':
 
-    # Frame size
-    size = 12
-    # Exchange integral
-    J = 0.7
-    # Temperature
-    beta = 0.45
-    # Field value
-    H = 2.5
-    # Simulation steps
-    N = 11
+    size = 12  # Frame size
+    J = 0.7  # Exchange integral
+    beta = 0.45  # Temperature
+    H = 2.5  # Field value
+    N = 11  # Simulation steps
 
     console = Console()
-    console.print(
-        f'[bold green]Frame: {size}x{size}, J = {J}, Beta = {beta}, H = {H}')
+    console.print(f'[bold green]Frame: {size}x{size}, J = {J}, Beta = {beta}, H = {H}')
     # Create object and run simulation
     ising = Ising(size, J, beta, H, N)
     ising.simulation()

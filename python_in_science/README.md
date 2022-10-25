@@ -1,0 +1,12 @@
+# **Used libraries:**
+- **lab01 - Matplotlib,**
+- **lab02 - Rich, Pillow,**
+- **lab03 - BeautifulSoup,**
+- **lab04 - Selenium,**
+- **lab05 - Bokeh, Pandas, NumPy,**
+- **lab06 - NumPy, Numba,**
+- **lab07 - NumPy, Numba,**
+- **lab08 - Multiprocessing, BeautifulSoup**
+- **lab09 - Asyncio, Aiohttp,**
+- **lab10 - Pandas,**
+- **lab11 - Networkx, NumPy, Matplotlib.**

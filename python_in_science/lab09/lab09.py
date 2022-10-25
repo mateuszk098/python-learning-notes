@@ -1,9 +1,16 @@
-from asyncio import Semaphore, gather, run, wait_for
-from aiohttp.client import ClientSession
+'''
+Asynchronic download files from website.
+'''
+
+
+import json
 from sys import argv, stderr
 from os import path
+
+
 import aiofiles
-import json
+from asyncio import Semaphore, gather, run, wait_for
+from aiohttp.client import ClientSession
 
 
 # Function to async download file from url
@@ -20,9 +27,9 @@ async def download_file(url, session, sem, dest_file):
 
         async with aiofiles.open(dest_file, '+wb') as f:
             await f.write(content)
-            
 
-# Function to async download several files 
+
+# Function to async download several files
 async def download_several_files(urls: list, time: int, tasks: int):
     tasks_list = []
     sem = Semaphore(tasks)
@@ -34,7 +41,7 @@ async def download_several_files(urls: list, time: int, tasks: int):
             file_name_start_pos = url.rfind("/") + 1
             file_name = url[file_name_start_pos:]
             dest_file = f'file_{file_name}.pdf'
-            tasks_list.append(wait_for(download_file(url, session, sem, dest_file), timeout = time))
+            tasks_list.append(wait_for(download_file(url, session, sem, dest_file), timeout=time))
 
         return await gather(*tasks_list)
 
@@ -49,12 +56,12 @@ if __name__ == '__main__':
     except IndexError:
         print(f'Usage: {path.basename(__file__)} <filename.json> <time> <tasks>')
         exit(1)
-    
+
     if not path.exists(filename):
-        print(f'No such file "{filename}"', file = stderr)
+        print(f'No such file "{filename}"', file=stderr)
         exit(2)
 
-    with open(filename, 'r', encoding = 'utf-8') as json_file:
+    with open(filename, 'r', encoding='utf-8') as json_file:
         files = json.load(json_file)
 
     run(download_several_files(files, time, tasks))

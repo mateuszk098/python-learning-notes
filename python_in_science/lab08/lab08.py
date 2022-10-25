@@ -1,9 +1,15 @@
-from multiprocessing.pool import ThreadPool
-from bs4 import BeautifulSoup
+'''
+Web scraping with BeautifulSoup.
+Comparison between sequence and multiprocessing download of big files.
+'''
+
 import requests
 import os
 import wget
 import time
+
+from multiprocessing.pool import ThreadPool
+from bs4 import BeautifulSoup
 
 
 # Directories names
@@ -20,7 +26,7 @@ def find_urls(url: str):
     for a in soup.find_all('a', href=True):
         if a['href'][a['href'].rfind('.')+1:] in ['jpeg', 'png', 'jpg']:
             links.append(url+str(a['href']))
-        
+
     return links
 
 
@@ -52,6 +58,7 @@ def create_dir(dir_name: str):
     except:
         pass
 
+
 # MAIN
 if __name__ == '__main__':
 
@@ -63,7 +70,7 @@ if __name__ == '__main__':
     url = 'http://www.if.pw.edu.pl/~mrow/dyd/wdprir/'
     links = find_urls(url)
 
-    # Sequence 
+    # Sequence
     start = time.time()
     download_sequence(links)
     end = time.time()

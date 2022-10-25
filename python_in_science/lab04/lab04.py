@@ -1,19 +1,27 @@
+'''
+Dynamic web scraping with Selenium.
+Script gather different .png files from DevianArt, depending on our idea.
+IMPORTANT: YOU HAVE TO SET APPROPRIATE PATH WITH YOUR WEB DRIVER 
+IN THE scrape_and_save() FUNCTION.
+'''
+
+import sys
+import json
+import os
+import wget
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.chrome.service import Service
-import sys
-import json
-import os
-import wget
 
 
 # Function to scrape DevianArt with selenium and download images to directory
 def scrape_and_save(search_name: str, filename: str):
 
-    # Set webdriver for Chrome
+    # IMPORTANT: YOU HAVE TO SET APPROPRIATE PATH WITH YOUR WEB DRIVER.
     driver_path = 'C:/Programy/chromedriver.exe'
     driver_service = Service(driver_path)
     driver = webdriver.Chrome(service=driver_service)
@@ -54,7 +62,7 @@ def scrape_and_save(search_name: str, filename: str):
     try:
         os.mkdir(path)
     except:
-        pass
+        print('Directory already exists.')
 
     # Save images to directory
     counter = 1
@@ -64,10 +72,8 @@ def scrape_and_save(search_name: str, filename: str):
         counter += 1
 
 
-# MAIN
 if __name__ == '__main__':
 
-    # simple protection
     try:
         # We can search e.g. 'space', 'mountain' etc.
         search_name = sys.argv[1]
