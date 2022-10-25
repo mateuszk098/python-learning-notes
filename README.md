@@ -9,6 +9,7 @@
 - **[built_in_functions](https://github.com/mateuszk098/python_learning_tools/tree/master/built_in_functions) - short description of all built-in python functions,**
 - **[different_things](https://github.com/mateuszk098/python_learning_tools/tree/master/different_things) - scripts that don't fit anywhere else,**
 - **[hacker_rank](https://github.com/mateuszk098/python_learning_tools/tree/master/hacker_rank) - solutions to tasks from [HackerRank](https://www.hackerrank.com/domains/python?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=python) site,**
+- **[matplotlib_tut](https://github.com/mateuszk098/python_learning_tools/tree/master/matplotlib_tut) - several examples with the usage of matplotlib,**
 - **[python_crash_course](https://github.com/mateuszk098/python_learning_tools/tree/master/python_crash_course) - solutions to tasks from "_Python Crash Course_" by Eric Matthes,**
 - **[python_in_science](https://github.com/mateuszk098/python_learning_tools/tree/master/python_in_science) - applications of different libraries in science problems:**
   - **lab01 - Matplotlib,**
