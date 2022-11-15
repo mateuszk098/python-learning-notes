@@ -1,4 +1,6 @@
-# Histograms
+"""
+Creating histogram.
+"""
 
 import pandas as pd
 from matplotlib import pyplot as plt

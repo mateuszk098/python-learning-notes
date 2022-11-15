@@ -1,4 +1,6 @@
-# We create a scatter plots
+"""
+Simple scatter plot.
+"""
 
 from matplotlib import pyplot as plt
 from matplotlib.pyplot import figure

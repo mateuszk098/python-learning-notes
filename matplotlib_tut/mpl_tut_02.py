@@ -1,4 +1,6 @@
-# Bar plots
+"""
+Simple bar plot with legend.
+"""
 
 import matplotlib.pyplot as plt
 import numpy as np

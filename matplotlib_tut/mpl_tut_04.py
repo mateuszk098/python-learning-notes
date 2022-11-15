@@ -1,4 +1,6 @@
-# Pie charts
+"""
+Simple pie chart.
+"""
 
 from matplotlib import pyplot as plt
 

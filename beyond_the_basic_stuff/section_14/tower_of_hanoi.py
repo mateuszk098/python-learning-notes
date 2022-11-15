@@ -1,6 +1,8 @@
 """
 TOWER OF HANOI.
 Example from "Beyond the basic stuff with Python" by Al Sweigart.
+
+Description: https://en.wikipedia.org/wiki/Tower_of_Hanoi
 """
 
 import sys

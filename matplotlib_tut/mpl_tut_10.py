@@ -1,4 +1,6 @@
-# Create plot in real-time
+"""
+Real-time plot. The `data_gen.py` must be launched for this. 
+"""
 
 import random
 from itertools import count

@@ -1,4 +1,6 @@
-# Creating and customizating first linear plot
+"""
+Simple linear plot with legend.
+"""
 
 import matplotlib.pyplot as plt
 

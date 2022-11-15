@@ -1,4 +1,6 @@
-# Stack plots
+"""
+Simple stack plot.
+"""
 
 from matplotlib import pyplot as plt
 from matplotlib.pyplot import figure

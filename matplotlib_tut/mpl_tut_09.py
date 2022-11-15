@@ -1,4 +1,6 @@
-# Create time series plot
+"""
+Time plot.
+"""
 
 import pandas as pd
 from datetime import datetime, timedelta

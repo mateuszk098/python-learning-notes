@@ -1,4 +1,6 @@
-# Plotting data from csv file
+"""
+Simple reversed bar plot using data from .csv
+"""
 
 import csv
 import numpy as np

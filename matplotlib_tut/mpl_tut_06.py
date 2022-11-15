@@ -1,4 +1,6 @@
-# Filling area on line plot
+"""
+Filling area between linear plots.
+"""
 
 from numpy import where
 import pandas as pd
