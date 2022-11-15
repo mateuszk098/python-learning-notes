@@ -1,5 +1,10 @@
 """
-Measuring the execution time of a function as a decorator. 
+The behaviour of a quantum particle in an electric field. We consider an 
+electron confined in a one-dimensional box and subjected to a uniform 
+electric field with amplitude oscillating in time. For this purpose, we 
+solve the time-dependent Schroedinger equation.
+
+Additionally we measure the execution time of a function as a decorator. 
 """
 
 import time

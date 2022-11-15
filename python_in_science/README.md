@@ -21,7 +21,7 @@
   **Used libraries:** Bokeh, Pandas, NumPy.
 
 - **[lab06](https://github.com/mateuszk098/python_learning_tools/tree/master/python_in_science/lab06)** <br />
-  **Problem:** Time decorator. <br />
+  **Problem:** Behaviour of a quantum particle in an uniform electric field. <br />
   **Used libraries:** NumPy, Numba.
 
 - **[lab07](https://github.com/mateuszk098/python_learning_tools/tree/master/python_in_science/lab07)** <br />
