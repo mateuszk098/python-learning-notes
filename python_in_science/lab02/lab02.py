@@ -1,6 +1,6 @@
-'''
+"""
 Simulation of the 2D Ising Model with Monte Carlo method.
-'''
+"""
 
 import numpy as np
 import random

@@ -1,7 +1,7 @@
-'''
+"""
 Static web scraping with BeautifulSoup.
 Script gather several informations about The Way of Kings' from polish site - lubimyczytac.pl
-'''
+"""
 
 import requests
 import json

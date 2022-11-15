@@ -1,6 +1,6 @@
-'''
+"""
 Measuring the execution time of a function as a decorator. 
-'''
+"""
 
 import time
 from functools import wraps

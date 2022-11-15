@@ -1,5 +1,13 @@
-def main() -> None:
-    print('Hello, World!')
+"""
+See description at https://www.hackerrank.com/challenges/py-hello-world
 
-if __name__ == '__main__':
+Print Hello, World! to stdout.
+"""
+
+
+def main() -> None:
+    print("Hello, World!")
+
+
+if __name__ == "__main__":
     main()

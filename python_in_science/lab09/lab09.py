@@ -1,6 +1,6 @@
-'''
+"""
 Asynchronic download files from website.
-'''
+"""
 
 
 import json

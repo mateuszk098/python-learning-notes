@@ -1,4 +1,11 @@
 """
+See description at https://www.hackerrank.com/challenges/alphabet-rangoli
+
+You are given an integer, N. Your task is to print an alphabet rangoli 
+of size N. (Rangoli is a form of Indian folk art based on creation of patterns.)
+
+Different sizes of alphabet rangoli are shown below:
+
 5
 --------e--------
 ------e-d-e------
@@ -45,6 +52,6 @@ def print_rangoli(size):
         print(line)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input())
     print_rangoli(n)

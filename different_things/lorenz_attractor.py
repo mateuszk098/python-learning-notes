@@ -1,25 +1,25 @@
-'''
-Draws lorenz attractor using 4th-order runge-kutta numerical algorithm.
-'''
+"""
+Draws Lorenz Attractor using 4th-order Runge-Kutta numerical algorithm.
+"""
 
 
 import matplotlib.pyplot as plt
 
-sigma: float = 10.
-rho: float = 28.
-beta: float = 10./3.
+SIGMA: float = 10.
+RHO: float = 28.
+BETA: float = 10./3.
 
 
 def dx(x: float, y: float) -> float:
-    return sigma * (y - x)
+    return SIGMA * (y - x)
 
 
 def dy(x: float, y: float, z: float) -> float:
-    return x * (rho - z) - y
+    return x * (RHO - z) - y
 
 
 def dz(x: float, y: float, z: float) -> float:
-    return x * y - beta * z
+    return x * y - BETA * z
 
 
 def runge_kutta(

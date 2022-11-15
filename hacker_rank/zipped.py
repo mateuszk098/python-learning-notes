@@ -1,3 +1,10 @@
+"""
+See description at https://www.hackerrank.com/challenges/zipped
+
+The National University conducts an examination of N students in X subjects.
+Your task is to compute the average scores of each student.
+"""
+
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 n, x = input().strip().split()
 

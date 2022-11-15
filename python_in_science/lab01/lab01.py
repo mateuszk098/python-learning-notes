@@ -1,8 +1,8 @@
-'''
+"""
 Creates histogram of most common words in "Pan Tadeusz"
 Usage: python lab01.py pan-tadeusz-pl.txt n m
 where n - n most common words, m -  with at least m letters.
-'''
+"""
 
 import sys
 import os.path

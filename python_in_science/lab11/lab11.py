@@ -1,7 +1,7 @@
-'''
+"""
 Basic analysis of chosen network from https://snap.stanford.edu/data/
 Using this you have to wait a few seconds to get the plot.
-'''
+"""
 
 
 import networkx as nx

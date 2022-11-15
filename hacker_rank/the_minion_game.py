@@ -1,6 +1,7 @@
 """
-Why this works?
+See description at https://www.hackerrank.com/challenges/the-minion-game
 
+Why this works?
 Notice that
 A player gets +1 point for each occurrence of the substring in the string.
 
@@ -34,6 +35,6 @@ def minion_game(string):
         print("Draw")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     s = input()
     minion_game(s)

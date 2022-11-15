@@ -1,3 +1,11 @@
+"""
+See description at https://www.hackerrank.com/challenges/itertools-combinations
+
+You are given a string S.
+Your task is to print all possible combinations, up to size k, of the string
+in lexicographic sorted order.
+"""
+
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 from itertools import combinations
 

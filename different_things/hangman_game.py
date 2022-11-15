@@ -1,12 +1,12 @@
-'''
-Hangman console game.
-'''
+"""
+Hangman. Simple game in the console.
+"""
 
 import sys
 
 
 def find_indexes(word: str, letter: str) -> list[int]:
-    ''' Looking for indices of used letter. '''
+    """ Looking for indices of used letter. """
 
     indexes: list[int] = []
 

@@ -1,6 +1,6 @@
-'''
-Connect with rest api.
-'''
+"""
+Connect with REST API.
+"""
 
 import requests
 

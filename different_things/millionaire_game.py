@@ -1,6 +1,6 @@
-'''
+"""
 Who Wants to Be a Millionaire? Simple console game.
-'''
+"""
 
 import json
 import random

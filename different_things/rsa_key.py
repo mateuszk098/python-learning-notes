@@ -1,4 +1,4 @@
-'''
+"""
 Generate an RSA keypair with an exponent of 65537 in PEM format
 param: bits The key length in bits
 Return private key and public key
@@ -8,7 +8,7 @@ IMPORTANT! INSTALL PyCryptodome
 
 Bits length of the RSA key is the first argument e.g.
 ---->  python3 rsa.py 1024  <----
-'''
+"""
 
 import sys
 from os import path
@@ -16,10 +16,7 @@ from Crypto.PublicKey import RSA
 
 
 def generate_rsa(bits_length: int) -> tuple:
-    '''
-    Generates RSA key.
-    '''
-
+    """Generates the RSA key."""
     new_key: RSA.RsaKey = RSA.generate(bits_length, e=65537)
     public_key: bytes = new_key.publickey().exportKey(format='PEM')
     private_key: bytes = new_key.exportKey(format='PEM')

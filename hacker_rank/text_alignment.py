@@ -1,3 +1,38 @@
+"""
+See description at https://www.hackerrank.com/challenges/text-alignment
+
+You are given a partial code that is used for generating the 
+HackerRank Logo of variable thickness.
+Your task is to replace the blank (______) with rjust, ljust or center.
+
+5
+    H    
+   HHH   
+  HHHHH  
+ HHHHHHH 
+HHHHHHHHH
+  HHHHH               HHHHH             
+  HHHHH               HHHHH             
+  HHHHH               HHHHH             
+  HHHHH               HHHHH             
+  HHHHH               HHHHH             
+  HHHHH               HHHHH             
+  HHHHHHHHHHHHHHHHHHHHHHHHH   
+  HHHHHHHHHHHHHHHHHHHHHHHHH   
+  HHHHHHHHHHHHHHHHHHHHHHHHH   
+  HHHHH               HHHHH             
+  HHHHH               HHHHH             
+  HHHHH               HHHHH             
+  HHHHH               HHHHH             
+  HHHHH               HHHHH             
+  HHHHH               HHHHH             
+                    HHHHHHHHH 
+                     HHHHHHH  
+                      HHHHH   
+                       HHH    
+                        H 
+"""
+
 thickness = int(input())  # This must be an odd number
 c = 'H'
 

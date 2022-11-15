@@ -1,7 +1,7 @@
-'''
+"""
 Create interactive dashboard about stackoverflow survey using bokeh library.
 Call this script: bokeh serve ./lab05.py --show
-'''
+"""
 
 
 from collections import Counter

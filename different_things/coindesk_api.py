@@ -1,10 +1,11 @@
-'''
-Display the bitcoin price using information from the api CoinDesk.
+"""
+Display the bitcoin price using information from the API CoinDesk.
 Check: https://github.com/public-apis/public-apis
-'''
+"""
 
 import json
 import requests
+
 
 if __name__ == "__main__":
 

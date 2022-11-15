@@ -6,21 +6,11 @@
 
 ---
 ## **What can you find here?**
+- **[beyond_the_basic_stuff](https://github.com/mateuszk098/python_learning_tools/tree/master/beyond_the_basic_stuff) - problems discussed in "_Beyond the Basic Stuff with Python_" by Al Sweigart,**
 - **[built_in_functions](https://github.com/mateuszk098/python_learning_tools/tree/master/built_in_functions) - short description of all built-in python functions,**
 - **[different_things](https://github.com/mateuszk098/python_learning_tools/tree/master/different_things) - scripts that don't fit anywhere else,**
 - **[hacker_rank](https://github.com/mateuszk098/python_learning_tools/tree/master/hacker_rank) - solutions to tasks from [HackerRank](https://www.hackerrank.com/domains/python?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=python) site,**
 - **[matplotlib_tut](https://github.com/mateuszk098/python_learning_tools/tree/master/matplotlib_tut) - several examples with the usage of matplotlib,**
 - **[python_crash_course](https://github.com/mateuszk098/python_learning_tools/tree/master/python_crash_course) - solutions to tasks from "_Python Crash Course_" by Eric Matthes,**
-- **[python_in_science](https://github.com/mateuszk098/python_learning_tools/tree/master/python_in_science) - applications of different libraries in science problems:**
-  - **lab01 - Matplotlib,**
-  - **lab02 - Rich, Pillow,**
-  - **lab03 - BeautifulSoup,**
-  - **lab04 - Selenium,**
-  - **lab05 - Bokeh, Pandas, NumPy,**
-  - **lab06 - NumPy, Numba,**
-  - **lab07 - NumPy, Numba,**
-  - **lab08 - Multiprocessing, BeautifulSoup**
-  - **lab09 - Asyncio, Aiohttp,**
-  - **lab10 - Pandas,**
-  - **lab11 - Networkx, NumPy, Matplotlib,**
+- **[python_in_science](https://github.com/mateuszk098/python_learning_tools/tree/master/python_in_science) - applications of different libraries in science problems,**
 - **[useful_tips](https://github.com/mateuszk098/python_learning_tools/tree/master/useful_tips) - interesting "_pythonic_" solutions for small elements of code, which I've encountered during learning.**

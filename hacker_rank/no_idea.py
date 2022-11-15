@@ -1,5 +1,9 @@
+"""
+See description at https://www.hackerrank.com/challenges/no-idea
+"""
+
 # Enter your code here. Read input from STDIN. Print output to STDOUT
-if __name__ == '__main__':
+if __name__ == "__main__":
     _ = input()
     my_arr = list(map(int, input().strip().split()))
     A = set(map(int, input().strip().split()))

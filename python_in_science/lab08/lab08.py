@@ -1,7 +1,7 @@
-'''
-Web scraping with BeautifulSoup.
+"""
+Web scraping with BeautifulSoup and Multiprocessing.
 Comparison between sequence and multiprocessing download of big files.
-'''
+"""
 
 import requests
 import os
@@ -50,7 +50,7 @@ def download_multi(link: str):
 
 
 # Function to create directory
-def create_dir(dir_name: str):
+def create_dir(dir_name):
     path = os.getcwd()
     path = os.path.join(path, dir_name)
     try:

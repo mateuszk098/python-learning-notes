@@ -1,7 +1,7 @@
-'''
+"""
 Simulation of the 2D Ising Model with Monte Carlo method.
 But there we don't have OOP and we're testing numba.
-'''
+"""
 
 import random
 import time

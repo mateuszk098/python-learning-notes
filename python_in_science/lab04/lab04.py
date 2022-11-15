@@ -1,9 +1,9 @@
-'''
+"""
 Dynamic web scraping with Selenium.
 Script gather different .png files from DevianArt, depending on our idea.
 IMPORTANT: YOU HAVE TO SET APPROPRIATE PATH WITH YOUR WEB DRIVER 
 IN THE scrape_and_save() FUNCTION.
-'''
+"""
 
 import sys
 import json
