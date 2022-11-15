@@ -1,35 +1,35 @@
 ## **Defined problems and used libraries:**
 
-> **lab01**
+- **lab01**
   - **Problem:** Histograms of the most common words in books.
   - **Used libraries:** Matplotlib.
-> **lab02**
+- **lab02**
   - **Problem:** Objective simulation of the 2D Ising Model with Monte Carlo method.
   - **Used libraries:** Rich, Pillow, NumPy.
-> **lab03**
+- **lab03**
   - **Problem:** Static web scraping with BeautifulSoup.
   - **Used libraries:** BeautifulSoup.
-> **lab04**
+- **lab04**
   - **Problem:** Dynamic web scraping with Selenium.
   - **Used libraries:** Selenium.
-> **lab05**
+- **lab05**
   - **Problem:** Interactive dashboard about stackoverflow survey.
   - **Used libraries:** Bokeh, Pandas, NumPy.
-> **lab06**
+- **lab06**
   - **Problem:** Time decorator.
   - **Used libraries:** NumPy, Numba.
-> **lab07**
+- **lab07**
   - **Problem:** Functional simulation of the 2D Ising Model with Monte Carlo method.
   - **Used libraries:** NumPy, Numba.
-> **lab08**
+- **lab08**
   - **Problem:** Web scraping with BeautifulSoup and multiprocessing .
   - **Used libraries:** Multiprocessing, BeautifulSoup.
-> **lab09**
+- **lab09**
   - **Problem:** Asynchronic download files from website.
   - **Used libraries:** Asyncio, Aiohttp.
-> **lab10**
+- **lab10**
   - **Problem:** Grouping and aggregation with Pandas.
   - **Used libraries:** Pandas.
-> **lab11**
+- **lab11**
   - **Problem:** Basic analysis of chosen network.
   - **Used libraries:** Networkx, NumPy, Matplotlib.
