@@ -7,19 +7,19 @@
 ---
 ## **What can you find here?**
 
-- **[beyond_the_basic_stuff](https://github.com/mateuszk098/python_learning_tools/tree/master/beyond_the_basic_stuff)** <br /> **Problems discussed in "_Beyond the Basic Stuff with Python_" by Al Sweigart.**
+:point_right: **[beyond_the_basic_stuff](https://github.com/mateuszk098/python_learning_tools/tree/master/beyond_the_basic_stuff)** <br /> **Problems discussed in "_Beyond the Basic Stuff with Python_" by Al Sweigart.**
 
-- **[built_in_functions](https://github.com/mateuszk098/python_learning_tools/tree/master/built_in_functions)** <br />  **Short description of all built-in python functions.**
+:point_right: **[built_in_functions](https://github.com/mateuszk098/python_learning_tools/tree/master/built_in_functions)** <br />  **Short description of all built-in python functions.**
 
-- **[different_things](https://github.com/mateuszk098/python_learning_tools/tree/master/different_things)** <br />  **Scripts that don't fit anywhere else.**
+:point_right: **[different_things](https://github.com/mateuszk098/python_learning_tools/tree/master/different_things)** <br />  **Scripts that don't fit anywhere else.**
   
-- **[hacker_rank](https://github.com/mateuszk098/python_learning_tools/tree/master/hacker_rank)** <br /> **Solutions to tasks from [HackerRank](https://www.hackerrank.com/domains/python?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=python) site.**
+:point_right: **[hacker_rank](https://github.com/mateuszk098/python_learning_tools/tree/master/hacker_rank)** <br /> **Solutions to tasks from [HackerRank](https://www.hackerrank.com/domains/python?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=python) site.**
   
-- **[matplotlib_tut](https://github.com/mateuszk098/python_learning_tools/tree/master/matplotlib_tut)** <br /> **Several examples with the usage of matplotlib.**
+:point_right: **[matplotlib_tut](https://github.com/mateuszk098/python_learning_tools/tree/master/matplotlib_tut)** <br /> **Several examples with the usage of matplotlib.**
   
-- **[python_crash_course](https://github.com/mateuszk098/python_learning_tools/tree/master/python_crash_course)** <br /> **Solutions to tasks from "_Python Crash Course_" by Eric Matthes.**
+:point_right: **[python_crash_course](https://github.com/mateuszk098/python_learning_tools/tree/master/python_crash_course)** <br /> **Solutions to tasks from "_Python Crash Course_" by Eric Matthes.**
   
-- **[python_in_science](https://github.com/mateuszk098/python_learning_tools/tree/master/python_in_science)** <br /> **Applications of different libraries in science problems.**
+:point_right: **[python_in_science](https://github.com/mateuszk098/python_learning_tools/tree/master/python_in_science)** <br /> **Applications of different libraries in science problems.**
   
-- **[useful_tips](https://github.com/mateuszk098/python_learning_tools/tree/master/useful_tips)** <br /> **Interesting "_pythonic_" solutions for small elements of code, which I've encountered during learning.**
+:point_right: **[useful_tips](https://github.com/mateuszk098/python_learning_tools/tree/master/useful_tips)** <br /> **Interesting "_pythonic_" solutions for small elements of code, which I've encountered during learning.**
 
