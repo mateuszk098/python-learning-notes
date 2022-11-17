@@ -5,7 +5,7 @@ Simple class BankAccount with private attributes.
 
 class BankAccount:
     def __init__(self, account_holder):
-        self._balance = 0
+        self._balance = 0  # "_" defines private attribute.
         self._name = account_holder
         with open(f"{self._name}_book.txt", "w", encoding="utf-8") as ledger_file:
             ledger_file.write("Account Balance is 0.\n")
