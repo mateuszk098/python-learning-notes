@@ -4,7 +4,6 @@
 
 **That is a place to all smaller scripts, projects and learning tools.**
 
----
 ## **What can you find here?**
 
 :point_right: **[algorithms](https://github.com/mateuszk098/python_learning_tools/tree/master/algorithms)** <br /> **Problems discussed in "_Algorytmy w Pythonie_" by Piotr Wróblewski, and problems from [HackerRank](https://www.hackerrank.com/domains/algorithms) website.**
