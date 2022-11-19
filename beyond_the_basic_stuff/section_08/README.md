@@ -14,7 +14,7 @@
  
     clothes.extend(new_clothes)
     ```  
-    ```shell
+    ```python
     >>> print(clothes)
     ['dress', 'red sock', 'red sock']
     ```
@@ -27,7 +27,7 @@
     greetings = ["Hi", "Hello", "Cześć", "Welcome", "Hello"]
     greetings = [word for word in greetings if word == "Hello"]
     ```
-    ```shell
+    ```python
     >>> print(greetings)
     ['Hello', 'Hello']
     ```  
@@ -85,25 +85,25 @@
 
 8. :x: **DO NOT CHAIN INEQUALITY `!=` OPERATORS.**  
    WHY: Note the following expression:
-    ```shell
+    ```python
     >>> "cat" != "dog" != "cat"
     True
     ```
     That is equivalent to:
-    ```shell
+    ```python
     >>> ("cat" != "dog") and ("dog" != "cat")
     True
     ```
 
 9. :x: **DO NOT FORGET ABOUT COMMA THE IN ONE-ELEMENT TUPLE.**  
     WHY: Because the following expression is treated as `str`.
-    ```shell
+    ```python
     >>> spam = ("cat")
     >>> spam[0]
     'c'
     ```
     That works:
-    ```shell
+    ```python
     >>> spam = ("cat", )
     >>> spam[0]
     'cat'
