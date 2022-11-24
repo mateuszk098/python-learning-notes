@@ -4,6 +4,8 @@
 
 :snake: **[section_09](https://github.com/mateuszk098/python_learning_tools/tree/master/beyond_the_basic_stuff/section_09) - Esoteric Python Oddities** <br /> Notes with several examples.
 
+:snake: **[section_13](https://github.com/mateuszk098/python_learning_tools/tree/master/beyond_the_basic_stuff/section_13) - Measuring Performance and Big O Algorithm Analysis** <br /> Notes with several examples.
+
 :snake: **[section_14](https://github.com/mateuszk098/python_learning_tools/tree/master/beyond_the_basic_stuff/section_14) - Practice Projects** <br /> _"Tower of Hanoi"_ and _"Four in a row"_. Simple console games in accordance with clean code practices.
 
 :snake: **[section_15](https://github.com/mateuszk098/python_learning_tools/tree/master/beyond_the_basic_stuff/section_15) - Object-Oriented Programming and Classes** <br /> Examples of classes with and without private attributes. Example of functional and objective implementation of _"Tic-Tac-Toe"_ game.
