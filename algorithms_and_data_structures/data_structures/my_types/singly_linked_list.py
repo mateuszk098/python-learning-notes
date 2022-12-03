@@ -12,7 +12,7 @@ class Node:
         self.next = next
 
 
-class LinkedList:
+class SinglyLinkedList:
     """A basic implementation of the Linked List structure."""
 
     def __init__(self):
@@ -213,7 +213,7 @@ class LinkedList:
 # SLOW BUT DO NOT MODIFY L1.
 def safe_concat(l1, l2):
     """Cocatenate two lists."""
-    new_list = LinkedList()
+    new_list = SinglyLinkedList()
     ptr1 = l1.head
     ptr2 = l2.head
 
@@ -243,7 +243,7 @@ def concat_and_sort(l1, l2):
     """Cocatenate two sorted lists. Returns sorted concatenated list.
     Modify `l1` and `l2` instances."""
 
-    new_list = LinkedList()
+    new_list = SinglyLinkedList()
     new_list.length = l1.length + l2.length
     new_list.head = _sort(l1.head, l2.head)  # MODIFY POINTERS
 
