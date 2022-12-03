@@ -218,11 +218,11 @@ def safe_concat(l1, l2):
     ptr2 = l2.head
 
     while ptr1 is not None:
-        new_list.add_with_sort(ptr1.value)
+        new_list.add_last(ptr1.value)
         ptr1 = ptr1.next
 
     while ptr2 is not None:
-        new_list.add_with_sort(ptr2.value)
+        new_list.add_last(ptr2.value)
         ptr2 = ptr2.next
 
     return new_list
@@ -230,7 +230,9 @@ def safe_concat(l1, l2):
 
 # FAST BUT MODIFY L1 !!!
 def fast_concat(l1, l2):
+    """Fast concatenation of two lists. Modify `l1` instance."""
     new_list = l1
+    new_list.head = l1.head
     new_list.tail.next = l2.head
     new_list.tail = l2.tail
     return new_list
@@ -238,7 +240,8 @@ def fast_concat(l1, l2):
 
 # MODERATE BUT MODIFY L1 AND L2 TOO !!!
 def concat_and_sort(l1, l2):
-    """Cocatenate two sorted lists. Returns sorted concatenated list."""
+    """Cocatenate two sorted lists. Returns sorted concatenated list.
+    Modify `l1` and `l2` instances."""
 
     new_list = LinkedList()
     new_list.length = l1.length + l2.length
@@ -268,64 +271,3 @@ def _sort(ptr1, ptr2):
     else:
         ptr2.next = _sort(ptr2.next, ptr1)
         return ptr2
-
-
-def main():
-    """Test here."""
-    l1 = LinkedList()
-    for number in range(5):
-        l1.add_last(number)
-
-    print(">>> l1.print_out()")
-    l1.print_out()
-
-    print("\n>>> l1.length")
-    print(l1.length)
-
-    print("\n>>> l1.add_last(5)")
-    l1.add_last(5)
-    l1.print_out()
-
-    print("\n>>> l1.add_first(-1)")
-    l1.add_first(-1)
-    l1.print_out()
-
-    print("\n>>> l1.add_at(10, 3)")
-    l1.add_at(10, 3)
-    l1.print_out()
-
-    print("\n>>> l1.length")
-    print(l1.length)
-
-    print("\n>>> l1.remove_last()")
-    l1.remove_last()
-    l1.print_out()
-
-    print("\n>>> l1.remove_first()")
-    l1.remove_first()
-    l1.print_out()
-
-    print("\n>>> l1.remove_at(4)")
-    l1.remove_at(4)
-    l1.print_out()
-
-    print("\n>>> l1.length")
-    print(l1.length)
-
-    print("\n>>> l1.get_at(2)")
-    print(l1.get_at(4))
-
-    print("\n>>> l1.reverse()")
-    l1.reverse()
-    l1.print_out()
-
-    print("\n>>> l1.exist(10)")
-    print(l1.exist(10))
-
-    print("\n>>> l1.remove_value(2)")
-    l1.remove_value(2)
-    l1.print_out()
-
-
-if __name__ == "__main__":
-    main()
