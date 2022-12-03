@@ -6,7 +6,7 @@
 
 ## **What can you find here?**
 
-:point_right: **[algorithms](https://github.com/mateuszk098/python_learning_tools/tree/master/algorithms)** <br /> **Problems discussed in "_Algorytmy w Pythonie_" by Piotr Wróblewski, and problems from [HackerRank](https://www.hackerrank.com/domains/algorithms) website.**
+:point_right: **[algorithms_and_data_structures](https://github.com/mateuszk098/python_learning_tools/tree/master/algorithms_and_data_structures)** <br /> **Data structures and problems discussed in "_Algorytmy w Pythonie_" by Piotr Wróblewski, and problems from [HackerRank](https://www.hackerrank.com/domains/algorithms) website.**
 
 :point_right: **[beyond_the_basic_stuff](https://github.com/mateuszk098/python_learning_tools/tree/master/beyond_the_basic_stuff)** <br /> **Problems discussed in "_Beyond the Basic Stuff with Python_" by Al Sweigart.**
 
