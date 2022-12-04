@@ -1,5 +1,7 @@
 __add__ = [
     "singly_linked_list",
     "doubly_linked_list",
-    "database"
+    "iterable_list",
+    "database",
+    "letter_set"
 ]
