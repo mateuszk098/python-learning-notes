@@ -1,1 +1,5 @@
-__add__ = ["linked_list", "database"]
+__add__ = [
+    "singly_linked_list",
+    "doubly_linked_list",
+    "database"
+]

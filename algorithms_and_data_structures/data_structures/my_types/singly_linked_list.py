@@ -1,5 +1,24 @@
 """
 Example implementation of singly linked list structure.
+
+Methods:
+* add_last()
+* add_first()
+* add_at()
+* remove_last()
+* remove_first()
+* remove_at()
+* get_at()
+* reverse()
+* print_out()
+* exist()
+* add_with_sort()
+* remove_value()
+
+Functions:
+* safe_concat()
+* fast_concat()
+* concat_and_sort()
 """
 
 
