@@ -7,7 +7,7 @@ class LetterSet:
     """Set of a-z letters."""
 
     def __init__(self):
-        self.vals = [False] * 26  # True means that letter is in the set.
+        self.vals = [False for _ in range(26)]  # True means that letter is in the set.
 
     def add(self, letter):
         """Add a letter to the set."""

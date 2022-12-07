@@ -6,4 +6,5 @@ __add__ = [
     "letter_set",
     "lifo_stack",
     "fifo_queue",
+    "heap",
 ]
