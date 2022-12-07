@@ -3,5 +3,7 @@ __add__ = [
     "doubly_linked_list",
     "iterable_list",
     "database",
-    "letter_set"
+    "letter_set",
+    "lifo_stack",
+    "fifo_queue",
 ]
