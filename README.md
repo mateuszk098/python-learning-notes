@@ -16,8 +16,6 @@
   
 :point_right: **[hacker_rank](https://github.com/mateuszk098/python_learning_tools/tree/master/hacker_rank)** <br /> **Solutions to tasks from [HackerRank](https://www.hackerrank.com/domains/python) website.**
   
-:point_right: **[matplotlib_tut](https://github.com/mateuszk098/python_learning_tools/tree/master/matplotlib_tut)** <br /> **Several examples with the usage of matplotlib.**
-  
 :point_right: **[python_crash_course](https://github.com/mateuszk098/python_learning_tools/tree/master/python_crash_course)** <br /> **Solutions to tasks from "_Python Crash Course_" by Eric Matthes.**
   
 :point_right: **[python_in_science](https://github.com/mateuszk098/python_learning_tools/tree/master/python_in_science)** <br /> **Applications of different libraries in science problems.**
