@@ -7,4 +7,5 @@ __add__ = [
     "lifo_stack",
     "fifo_queue",
     "heap",
+    "binary_search_tree",
 ]
