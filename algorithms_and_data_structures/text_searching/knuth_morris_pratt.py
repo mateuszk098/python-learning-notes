@@ -1,7 +1,7 @@
 """
 Example implementation of Knuth-Morris-Pratt searching.
 
-Time complexity: O(n + m), where n is the length of the text string
+Time complexity: O(n+m), where n is the length of the text string
 and m is the length of the pattern string.
 
 Space complexity: O(m), because it uses an array to store the shift values

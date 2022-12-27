@@ -1,7 +1,7 @@
 """
-Examle implementation of brute force searching.
+Example implementation of Brute Force searching.
 
-Time complexity: O(nm), where n is the length of the text string
+Time complexity: O(n*m), where n is the length of the text string
 and m is the length of the pattern string.
 
 Space complexity: O(1), because it only uses a constant amount
