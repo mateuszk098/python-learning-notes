@@ -194,13 +194,13 @@ class DoublyLinkedList:
                 break
             current = current.next
 
-        if current.prev is None:  # Add at the beginning.
+        if current.prev is None:  # type:ignore # Add at the beginning.
             new_node.next = self.head
             self.head.prev = new_node
             self.head = new_node
         else:
             if current is None:  # Add at the end.
-                self.tail.next = new_node
+                self.tail.next = new_node  # type:ignore
                 new_node.prev = self.tail
                 self.tail = new_node
             else:  # Add somewhere in the middle.

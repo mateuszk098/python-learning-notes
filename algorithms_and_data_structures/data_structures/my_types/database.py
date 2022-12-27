@@ -126,7 +126,7 @@ class DataBase:
             self.name_head = current_id.next
         elif self.name_tail == current_id:  # Remove from the end.
             self.name_tail = prev_id
-            prev_id.next = None
+            prev_id.next = None  # type: ignore
         else:
             prev_id.next = current_id.next  # Remove from somewhere in the middle.
 
