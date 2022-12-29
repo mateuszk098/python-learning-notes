@@ -1,5 +1,37 @@
 """
-Example implementation of set structure.
+Example implementation of the Set.
+
+A set is a data structure that stores a collection of elements and allows for
+the efficient checking of membership (i.e., whether an element is present in
+the set) and insertion and deletion of elements. Sets do not store duplicate
+elements, and the order of the elements is not preserved.
+
+Some advantages of sets include:
+
+* Efficient membership checking: Sets allow for efficient membership checking,
+  with a time complexity of O(1) (constant time) on average.
+
+* No duplicate elements: Sets do not store duplicate elements, making them a good
+  choice for applications that require unique elements.
+
+* Flexibility: Sets can be implemented using a variety of underlying data structures,
+  such as arrays, linked lists, or trees, depending on the specific requirements
+  of the application.
+
+Some disadvantages of sets include:
+
+* Limited support for element ordering: Sets do not preserve the order of the elements,
+  and do not provide efficient access to the elements in a specific position.
+
+* Poor performance with large data sets: Sets can become inefficient for large data sets,
+  as the time complexity of the insert and delete operations is typically O(n)
+  (linear time), which means that the time required to perform these operations
+  increases as the size of the set grows.
+
+Sets are a good choice for applications that require the efficient checking of membership
+and the insertion and deletion of elements, and where duplicate elements are not allowed.
+They are commonly used in programs that need to store and manipulate unique elements,
+such as in database indexing and spelling checkers.
 """
 
 

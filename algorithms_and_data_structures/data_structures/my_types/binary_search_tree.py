@@ -1,5 +1,35 @@
 """
-Example implementation of binary search tree.
+Example implementation of the Binary Search Tree.
+
+A binary search tree (BST) is a data structure that allows efficient insertion,
+deletion, and search operations. It is called a "search tree" because it can be
+used to search for specific values in the tree.
+
+Advantages of binary search trees include:
+
+* Efficiency: BSTs have an average-case time complexity of O(log n) for search,
+  insert, and delete operations, making them efficient for large datasets.
+
+* Sorted data: BSTs store data in a sorted manner, which can be useful in certain
+  applications.
+
+* Flexibility: BSTs can be easily modified to store additional data or to support
+  different operations.
+
+Some disadvantages of BSTs include:
+
+* Unbalanced trees: If a BST becomes unbalanced (i.e., if the left and right subtrees
+  are significantly different in size), the time complexity of the search, insert,
+  and delete operations can degrade to O(n).
+
+* Limited range of operations: BSTs are not well-suited for operations that require
+  finding the minimum or maximum value in the tree, as these operations require
+  traversing the entire tree.
+
+BSTs are a good choice for applications that require efficient search, insert, and delete
+operations on a dataset that does not change frequently and does not require support for
+minimum/maximum operations. They are commonly used in database indexing, search engines,
+and other applications where fast access to data is important.
 """
 
 

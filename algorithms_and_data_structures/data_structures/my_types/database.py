@@ -1,5 +1,43 @@
 """
-Example implementation of database structure.
+Example implementation of the Database.
+
+A database is a structured collection of data that is stored electronically
+and can be accessed and manipulated by a computer. Databases are used to store
+and manage large amounts of data, and are commonly used in a wide range of applications, 
+including financial records, customer relationship management systems, and online
+shopping platforms.
+
+Some advantages of databases include:
+
+* Large capacity: Databases can store large amounts of data, making them suitable for 
+  applications that require the storage of a large number of records.
+
+* Efficient data access: Databases support efficient access to specific records
+  or groups of records, allowing for fast search and retrieval of data.
+
+* Data integrity: Databases enforce data integrity constraints, ensuring that the data
+  stored in the database is consistent and accurate.
+
+* Security: Databases provide security features such as user authentication and data
+  encryption, which can help to protect the data from unauthorized access or tampering.
+
+Some disadvantages of databases include:
+
+* Complexity: Setting up and managing a database can be complex, requiring specialized
+  knowledge and skills.
+
+* Performance: Databases can become inefficient for very large data sets, or for applications 
+  that require very high levels of concurrency (i.e., multiple users accessing and updating
+  the data simultaneously).
+
+* Cost: The cost of setting up and maintaining a database can be significant, especially
+  for large-scale applications.
+
+Databases are a good choice for applications that require the storage and management
+of large amounts of structured data, and where efficient access to specific records
+or groups of records is important. They are commonly used in a wide range of applications, 
+including financial systems, customer relationship management systems, and online
+shopping platforms.
 """
 
 

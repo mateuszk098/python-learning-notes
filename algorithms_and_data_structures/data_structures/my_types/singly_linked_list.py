@@ -1,24 +1,40 @@
 """
-Example implementation of singly linked list structure.
+Example implementation of the Singly Linked List.
 
-Methods:
-* add_last()
-* add_first()
-* add_at()
-* remove_last()
-* remove_first()
-* remove_at()
-* get_at()
-* reverse()
-* print_out()
-* exist()
-* add_with_sort()
-* remove_value()
+A singly linked list is a linear data structure that consists of a sequence
+of nodes, where each node stores a value and a reference (link) to the next
+node in the sequence. The last node in the list typically has a null reference
+to indicate the end of the list. Singly linked lists are a simple and efficient
+data structure that can be used to store and manipulate sequences of data.
 
-Functions:
-* safe_concat()
-* fast_concat()
-* concat_and_sort()
+Some advantages of singly linked lists include:
+
+* Dynamic size: Singly linked lists can grow or shrink in size as needed, making
+  them a good choice for applications that require the ability to add or remove
+  elements dynamically.
+
+* Efficient insertion and deletion: Singly linked lists allow for efficient insertion
+  and deletion of elements at any position in the list, as only the links between
+  the affected nodes need to be updated.
+
+* Memory efficiency: Singly linked lists use less memory than arrays, as they only
+  store a single reference (the link to the next node) for each element, rather than
+  the element itself.
+
+Some disadvantages of singly linked lists include:
+
+* Limited access: Singly linked lists only allow for efficient access to the elements
+  in the list by traversing the list from the beginning. Accessing specific elements
+  or performing operations on elements in the middle of the list can be inefficient.
+
+* No random access: Singly linked lists do not allow for random access to elements,
+  as each element can only be accessed by traversing the list from the beginning.
+
+Singly linked lists are a good choice for applications that require the ability
+to add and remove elements dynamically, and where the elements in the list do not
+need to be accessed randomly. They are commonly used in situations where the size
+of the list may change frequently, such as in programs that manage data sets that
+are constantly being updated.
 """
 
 

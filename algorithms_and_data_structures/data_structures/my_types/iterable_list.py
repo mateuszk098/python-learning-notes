@@ -1,5 +1,5 @@
 """
-Example implementation of iterable singly linked list.
+Example implementation of iterable Singly Linked List.
 The most important part of this example is to show `__iter__()` method,
 so for full example of linked list see the singly_linked_list.py file.
 """

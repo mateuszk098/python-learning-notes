@@ -1,6 +1,39 @@
 """
-Example implementation of heap structure.
-It is used to represent a priority queue.
+Example implementation of the Heap.
+
+A heap is a complete binary tree that satisfies the heap property,
+which states that the value of each node in the tree is greater than
+or equal to the values of its children. There are two types of heaps:
+min heaps, in which the value of each node is less than or equal to the
+values of its children, and max heaps, in which the value of each node
+is greater than or equal to the values of its children.
+
+Some advantages of heaps include:
+
+* Efficient insertion and removal: Heaps allow for efficient insertion
+  and removal of elements, with an average-case time complexity of O(log n)
+  for both operations.
+
+* Efficient retrieval of minimum/maximum element: In a min heap, the minimum
+  element is always the root of the tree, and in a max heap, the maximum element
+  is always the root of the tree. This allows for efficient retrieval of the
+  minimum/maximum element in the heap, with a time complexity of O(1).
+
+* Sorted data: Heaps store data in a sorted manner, which can be useful
+  in certain applications.
+
+Some disadvantages of heaps include:
+
+* Limited flexibility: Heaps only support basic operations such as insertion,
+  removal, and retrieval of the minimum/maximum element, and do not allow for
+  other operations such as random access or element removal from the middle
+  of the heap.
+
+Heaps are a good choice for applications that require efficient insertion,
+removal, and retrieval of the minimum/maximum element, and where the size
+of the data set is not too large. They are commonly used in algorithms that
+require the maintenance of a priority queue, such as in graph traversal
+and sorting algorithms.
 """
 
 

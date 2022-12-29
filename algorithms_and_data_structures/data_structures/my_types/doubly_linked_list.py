@@ -1,20 +1,41 @@
 """
-Example implementation of doubly linked list structure.
+Example implementation of the Doubly Linked List.
 
-Methods:
-* add_last()
-* add_first()
-* add_at()
-* remove_last()
-* remove_first()
-* remove_at()
-* get_at()
-* reverse()
-* print_forward()
-* print_backward()
-* remove_value()
-* exist()
-* add_with_sort()
+A doubly linked list is a linear data structure that consists of a sequence of nodes,
+where each node stores a value and references (links) to both the previous and next
+nodes in the sequence. The first and last nodes in the list have null references
+to indicate the beginning and end of the list, respectively. Doubly linked lists are
+similar to singly linked lists, but they allow for more efficient traversal in both
+directions.
+
+Some advantages of doubly linked lists include:
+
+* Dynamic size: Like singly linked lists, doubly linked lists can grow or shrink in size
+  as needed, making them a good choice for applications that require the ability to add
+  or remove elements dynamically.
+
+* Efficient insertion and deletion: Doubly linked lists allow for efficient insertion
+  and deletion of elements at any position in the list, as only the links between
+  the affected nodes need to be updated.
+
+* Improved traversal: Doubly linked lists allow for efficient traversal in both directions,
+  making it easier to access elements at any position in the list.
+
+Some disadvantages of doubly linked lists include:
+
+* More memory overhead: Doubly linked lists require more memory than singly linked lists,
+  as each node must store two references (one to the previous node and one to the
+  next node) rather than just one.
+
+* Limited random access: While doubly linked lists allow for efficient traversal in both
+  directions, they do not allow for efficient random access to elements, as each element
+  can only be accessed by traversing the list from the beginning or end.
+
+Doubly linked lists are a good choice for applications that require the ability to add
+and remove elements dynamically, and where efficient traversal in both directions
+is important. They are commonly used in situations where the size of the list may
+change frequently, and where the elements in the list need to be accessed in both
+forward and backward order.
 """
 
 
@@ -210,6 +231,8 @@ class DoublyLinkedList:
                 current.prev = new_node
 
     def _iter_to(self, index):
+        """Iterates through the list to the given index. Return pointer
+        to that place in the memory."""
         counts = 0
         current = self.head
         while counts < index:
@@ -218,6 +241,8 @@ class DoublyLinkedList:
         return current
 
     def _search_ref(self, value):
+        """Searches for the pointer related to the given value. Returns that
+        pointer and boolen indicator if it exist or not."""
         current = self.head
         while current is not None:
             if current.value == value:
