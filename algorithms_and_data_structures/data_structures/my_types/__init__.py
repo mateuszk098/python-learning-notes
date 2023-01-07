@@ -8,4 +8,5 @@ __add__ = [
     "fifo_queue",
     "heap",
     "binary_search_tree",
+    "matrix_graph",
 ]
