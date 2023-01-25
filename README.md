@@ -10,8 +10,6 @@
 
 :point_right: **[beyond_the_basic_stuff](https://github.com/mateuszk098/python_learning_tools/tree/master/beyond_the_basic_stuff)** <br /> **Problems discussed in "_Beyond the Basic Stuff with Python_" by Al Sweigart.**
 
-:point_right: **[built_in_functions](https://github.com/mateuszk098/python_learning_tools/tree/master/built_in_functions)** <br />  **Short description of all built-in python functions.**
-
 :point_right: **[different_things](https://github.com/mateuszk098/python_learning_tools/tree/master/different_things)** <br />  **Scripts that don't fit anywhere else.**
   
 :point_right: **[hacker_rank](https://github.com/mateuszk098/python_learning_tools/tree/master/hacker_rank)** <br /> **Solutions to tasks from [HackerRank](https://www.hackerrank.com/domains/python) website.**
