@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 SIGMA: float = 10.
 RHO: float = 28.
-BETA: float = 10./3.
+BETA: float = 10. / 3.
 
 
 def dx(x: float, y: float) -> float:

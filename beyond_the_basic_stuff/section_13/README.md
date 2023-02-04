@@ -1,4 +1,4 @@
-## **Measuring performance and Big O algorithm analysis:**
+# **Measuring performance and Big O algorithm analysis:**
 
 ### **The `timeit` module:**
 The `timeit` module is a handy built-in Python module that one can use to compute the time execution of a small block of code or small functions.

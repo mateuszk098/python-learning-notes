@@ -39,7 +39,7 @@ def level_choice() -> int:
             no_of_tries = 1
             break
         else:
-            print("Błędna wartość")
+            print("Incorrect value.")
 
     print("No. of tries:", no_of_tries)
     print()

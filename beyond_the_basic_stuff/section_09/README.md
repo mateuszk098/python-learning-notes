@@ -1,4 +1,4 @@
-## **Esoteric Python Oddities:**
+# **Esoteric Python Oddities:**
 
 1. **WHY 256 is 256, BUT 257 is not 257.**  
     ```python

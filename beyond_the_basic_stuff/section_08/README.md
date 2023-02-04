@@ -1,4 +1,4 @@
-## **Common Python Gotchas:**
+# **Common Python Gotchas:**
 
 1. :x: **DO NOT APPEND AN ELEMENT TO THE LIST WHEN YOU ITERATE BY IT.**  
    WHY: Because such a loop can iterate forever.  
