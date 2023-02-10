@@ -6,26 +6,34 @@
 
 ## **What can you find here?**
 
-:large_orange_diamond: **[Algorithms & Data Structures](https://github.com/mateuszk098/python_learning_tools/tree/master/algorithms_and_data_structures)**  
-Data structures and problems discussed in "_Algorytmy w Pythonie_" by Piotr Wróblewski, and problems from [HackerRank](https://www.hackerrank.com/domains/algorithms) website.
+:snake: **[Algorithms & Data Structures](https://github.com/mateuszk098/python_learning_tools/tree/master/algorithms_and_data_structures)**  
 
-:large_orange_diamond: **[Beyond the Basic Stuff](https://github.com/mateuszk098/python_learning_tools/tree/master/beyond_the_basic_stuff)**  
-Problems discussed in "_Beyond the Basic Stuff with Python_" by Al Sweigart.
+**Data structures and problems discussed in "_Algorytmy w Pythonie_" by Piotr Wróblewski, and problems from [HackerRank](https://www.hackerrank.com/domains/algorithms) website. This section covers topics such as text searching, sorting, usage of dynamic programming, use of greedy, and implementation of various data structures such as linked lists, databases, graphs, binary search trees, etc. It also covers solutions (which are implemented in C++) from the Hacker Rank algorithms section. Nevertheless, further problems will be implemented in Python.**
 
-:large_orange_diamond: **[Commands & Shortcuts](https://github.com/mateuszk098/python_learning_tools/tree/master/commands_and_shortcuts)**  
-Not updated.
+:snake: **[Beyond the Basic Stuff](https://github.com/mateuszk098/python_learning_tools/tree/master/beyond_the_basic_stuff)**  
 
-:large_orange_diamond: **[Different Things](https://github.com/mateuszk098/python_learning_tools/tree/master/different_things)**  
-Scripts that don't fit anywhere else.
+**Problems discussed in "_Beyond the Basic Stuff with Python_" by Al Sweigart. This section covers a little bit more interesting topics and best practices in Python language. We can find something out about Big-O, profiling the code, higher-order functions,  what we shouldn't do in Python, esoteric Python oddities, OOP and inheritance, including multiple inheritance (MRO - method resolution order).**
+
+:snake: **[Commands & Shortcuts](https://github.com/mateuszk098/python_learning_tools/tree/master/commands_and_shortcuts)**  
+
+**Not updated. We can find here the most useful VSCode shortcuts. It will cover crucial GitHub commands and jupyter-notebook helpful shortcuts in the future.**
+
+:snake: **[Different Things](https://github.com/mateuszk098/python_learning_tools/tree/master/different_things)**  
+
+**Small scripts that don't fit anywhere else.**
   
-:large_orange_diamond: **[Hacker Rank](https://github.com/mateuszk098/python_learning_tools/tree/master/hacker_rank)**  
-Solutions to tasks from [HackerRank](https://www.hackerrank.com/domains/python) website.
+:snake: **[Hacker Rank](https://github.com/mateuszk098/python_learning_tools/tree/master/hacker_rank)**  
+
+**Solutions to Python tasks from [HackerRank](https://www.hackerrank.com/domains/python) website.**
   
-:large_orange_diamond: **[Python Crash Course](https://github.com/mateuszk098/python_learning_tools/tree/master/python_crash_course)**  
-Solutions to tasks from "_Python Crash Course_" by Eric Matthes.
+:snake: **[Python Crash Course](https://github.com/mateuszk098/python_learning_tools/tree/master/python_crash_course)**  
+
+**Solutions to tasks from "_Python Crash Course_" by Eric Matthes. This section includes the total basics of Python language.**
   
-:large_orange_diamond: **[Python in Science](https://github.com/mateuszk098/python_learning_tools/tree/master/python_in_science)**  
-Applications of different libraries in science problems.
+:snake: **[Python in Science](https://github.com/mateuszk098/python_learning_tools/tree/master/python_in_science)**  
+
+**Applications of different libraries in science problems. Here we can find different problems using libraries such as Matplotlib, Numpy, Asyncio, BeautifulSoup, Pandas, Bokeh, Selenium, Numba, etc.**
   
-:large_orange_diamond: **[Useful Tips](https://github.com/mateuszk098/python_learning_tools/tree/master/useful_tips)**  
-Interesting "_pythonic_" solutions for small elements of code, which I've encountered during learning.
+:snake: **[Useful Tips](https://github.com/mateuszk098/python_learning_tools/tree/master/useful_tips)**  
+
+**Interesting "_pythonic_" solutions for small elements of code, which I've encountered.**
