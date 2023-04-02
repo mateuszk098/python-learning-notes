@@ -22,9 +22,13 @@
 
 **Small scripts that don't fit anywhere else.**
   
-:snake: **[Hacker Rank](https://github.com/mateuszk098/python_learning_tools/tree/master/hacker_rank)**  
+:snake: **[Hacker Rank Python](https://github.com/mateuszk098/python_learning_tools/tree/master/hacker_rank_python)**  
 
 **Solutions to Python tasks from [HackerRank](https://www.hackerrank.com/domains/python) website.**
+
+:snake: **[Hacker Rank SQL](https://github.com/mateuszk098/python_learning_tools/tree/master/hacker_rank_sql)**  
+
+**Solutions to SQL tasks from [HackerRank](https://www.hackerrank.com/domains/sql) website.**
   
 :snake: **[Python Crash Course](https://github.com/mateuszk098/python_learning_tools/tree/master/python_crash_course)**  
 
