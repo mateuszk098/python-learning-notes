@@ -14,13 +14,13 @@
 
 **Problems discussed in "_Beyond the Basic Stuff with Python_" by Al Sweigart. This section covers a little bit more interesting topics and best practices in Python language. We can find something out about Big-O, profiling the code, higher-order functions,  what we shouldn't do in Python, esoteric Python oddities, OOP and inheritance, including multiple inheritance (MRO - method resolution order).**
 
-:snake: **[Commands & Shortcuts](https://github.com/mateuszk098/python_learning_tools/tree/master/commands_and_shortcuts)**  
-
-**Not updated. We can find here the most useful VSCode shortcuts. It will cover crucial GitHub commands and jupyter-notebook helpful shortcuts in the future.**
-
 :snake: **[Different Things](https://github.com/mateuszk098/python_learning_tools/tree/master/different_things)**  
 
 **Small scripts that don't fit anywhere else.**
+
+:snake: **[Fluent Python](https://github.com/mateuszk098/python_learning_tools/tree/master/fluent_python)**  
+
+**Problems discussed in "_Fluent Python. 2nd Edition_" by Luciano Ramalho. This section covers advanced topics which allow you to truly master Python skills.**
   
 :snake: **[Hacker Rank](https://github.com/mateuszk098/python_learning_tools/tree/master/hacker_rank)**  
 
