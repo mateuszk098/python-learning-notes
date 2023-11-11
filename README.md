@@ -2,7 +2,7 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/mateuszk098/python_learning_tools)
 
-**That is a place to where you get through Python from beginning up to the end.**
+**That is a place where you get through Python from beginning up to the end.**
 
 ## **What can you find here? 🐍**
 
