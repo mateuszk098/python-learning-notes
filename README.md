@@ -15,6 +15,8 @@
 - **[Fluent Python](https://github.com/mateuszk098/python_learning_tools/tree/master/fluent_python)** - Problems discussed in "_Fluent Python. 2nd Edition_" by Luciano Ramalho. This section covers advanced topics which allow you to truly master Python skills. It covers data structures, functions as objects, object-oriented idoms, control flow and metaprogramming.
   
 - **[Hacker Rank](https://github.com/mateuszk098/python_learning_tools/tree/master/hacker_rank)** - Solutions to Python tasks from [HackerRank](https://www.hackerrank.com/domains/python) website.
+
+- **[Packages Creation](https://github.com/mateuszk098/python_learning_tools/tree/master/packages_creation)** - How to create Python packages and get access to different modules from the another modules.
   
 - **[Python Crash Course](https://github.com/mateuszk098/python_learning_tools/tree/master/python_crash_course)** - Solutions to tasks from "_Python Crash Course_" by Eric Matthes. This section includes the total basics of Python language.
   

@@ -1,2 +1,4 @@
+This code doesn't have any sense. It's just an example how to create own packages
+and how to get access to different modules in another modules.
 Install with: pip install -e .
-How to create packages: https://setuptools.pypa.io/en/latest/userguide/index.html
+How to create packages: <https://setuptools.pypa.io/en/latest/userguide/index.html>
