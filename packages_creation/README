@@ -1,0 +1,2 @@
+Install with: pip install -e .
+How to create packages: https://setuptools.pypa.io/en/latest/userguide/index.html
